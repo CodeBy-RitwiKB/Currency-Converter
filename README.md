@@ -3,7 +3,8 @@
 A simple and responsive Currency Converter web application that lets users convert between world currencies in real time.
 The app uses the Currency API
  for live exchange rates and displays country flags for better user experience.
- You can view website using link:
+ 
+ You can view website using link: https://codeby-ritwikb.github.io/Currency-Converter/
 
 🚀 Features
 
