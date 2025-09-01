@@ -14,25 +14,14 @@
         <h2>Currency Converter</h2>
         <form>
         <div class="amount"></div>
-        <p>Enter Amount</p>
-        <input type="text" class="amount-input" placeholder="Enter Amount" required>
+        <p class="para1">Enter Amount</p>
+        <input type="number" class="amount-input" placeholder="Enter Amount" required>
         <div class="dropdown">
             <div class="from">
                 <p>From</p>
                 <div class="select-container">
                     <img src="https://flagsapi.com/US/shiny/64.png">
-                    <select class="from">
-                    <option value="USD" selected>USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="INR">INR</option>
-                    <option value="AUD">AUD</option>
-                    <option value="CAD">CAD</option>
-                    <option value="SGD">SGD</option>
-                    <option value="CHF">CHF</option>
-                    <option value="MYR">MYR</option>
-                    <option value="JPY">JPY</option>
-                    <option value="CNY">CNY</option>
+                    <select name="from">
                     </select>
                 </div>
             </div>
@@ -41,31 +30,16 @@
                 <p>To</p>
                 <div class="select-container">
                     <img src="https://flagsapi.com/IN/shiny/64.png">
-                    <select class="to">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="INR" selected>INR</option>
-                    <option value="AUD">AUD</option>
-                    <option value="CAD">CAD</option>
-                    <option value="SGD">SGD</option>
-                    <option value="CHF">CHF</option>
-                    <option value="MYR">MYR</option>
-                    <option value="JPY">JPY</option>
-                    <option value="CNY">CNY</option>
+                    <select name="to">
                     </select>
                 </div>
             </div>
         </div>
         <button class="convert">GET EXCHANGE RATE</button>
+        <div class="msg">1 USD = 88.26 INDIAN RUPEES</div>
     </form>   
  </div>
-
-
-
- <div class="msg">1 USD = 88.26 INDIAN RUPEES</div>
-
-
+    <script src="code.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
