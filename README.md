@@ -1,4 +1,4 @@
-                                                                               🌍 Currency Converter
+                                   🌍 Currency Converter
 
 A simple and responsive Currency Converter web application that lets users convert between world currencies in real time.
 The app uses the Currency API
